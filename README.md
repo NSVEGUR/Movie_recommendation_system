@@ -4,7 +4,7 @@ They are information filtering systems , where they improve quality of search re
 
 Over the top (OTT) platforms like Netflix and Prime Video use movie recommendation systems as their base strategy for success. In this project lets try to build a simple movie recommendation system.
 
-![Netflix](Data/netflix.jpg)
+![Netflix](Input/netflix.jpg)
 
 There are three types of movie recommendation systems.
 
@@ -18,7 +18,7 @@ There are three types of movie recommendation systems.
 
 **👉🏻** **_Collaborative filtering_**
 
-> Here when metadata is not available, we match users with similar interests to one other and recommend systems. This is a `unsupervised learning`.
+> Here when metadata is not available, we match users with similar interests to one other and recommend systems. This is an `unsupervised learning`.
 
 In this project we use tmdb 5000 movies and credits data set for training and evaluation.
 
@@ -27,6 +27,7 @@ In this project we use tmdb 5000 movies and credits data set for training and ev
 **👉🏻** **tmdb_5000_credits.csv**
 
 > - `movie_id` - A unique identifier for each movie.
+> - `title` - Title of the movie
 > - `cast` - The name of lead and supporting actors.
 > - `crew` - The name of Director, Editor, Composer, Writer etc.
 
