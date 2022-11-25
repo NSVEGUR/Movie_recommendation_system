@@ -2,8 +2,8 @@ import pandas as pd
 
 class Preprocess():
 	def __init__(self):
-		self.df_credits = pd.read_csv("./Input/tmdb_5000_credits.csv")
-		self.df_movies = pd.read_csv("./Input/tmdb_5000_movies.csv")
+		self.df_credits = pd.read_csv("../Data/tmdb_5000_credits.csv")
+		self.df_movies = pd.read_csv("../Data/tmdb_5000_movies.csv")
 		self.df = self.__merge_csv__()
 	
 	def __merge_csv__(self):
