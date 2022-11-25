@@ -2,23 +2,23 @@
 
 They are information filtering systems , where they improve quality of search results and provides items that are more related to the search or based on the previous history of the user. They are determined based on `rating` and `preferences` that a user would give to them. Even Amazon, youtube and facebook uses these recommendation systems to provide good results for the end users.
 
-Over the top (OTT) platforms like Netflix and Prime Video use movie recommendation systems as their base strategy for success. In this project lets try to build a simple movie recommendation system.
+Over the top (OTT) platforms like [Netflix](https://www.netflix.com/) and [Prime Video](https://www.primevideo.com/) use movie recommendation systems as their base strategy for success. In this project lets try to build a simple movie recommendation system.
 
 ![Netflix](Data/netflix.jpg)
 
 There are three types of movie recommendation systems.
 
-**👉🏻** **_Demographic filtering_**
+**📌** **_Demographic filtering_**
 
 > Here we offer generalized recommendation to every user just based on popularity and ratings of the movie and genre. This method simply assumes that a movie is most likely interested by user if average users got interested in that one.
 
-**👉🏻** **_Content based filtering_**
+**📌** **_Content based filtering_**
 
-> In this system we use users metadata, like his previous watch history and interests to recommend movies. This is a `supervised learning`.
+> In this system we use users metadata, like his previous watch history and interests to recommend movies. This is [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning).
 
-**👉🏻** **_Collaborative filtering_**
+**📌** **_Collaborative filtering_**
 
-> Here when metadata is not available, we match users with similar interests to one other and recommend systems. This is an `unsupervised learning`.
+> Here when metadata is not available, we match users with similar interests to one other and recommend systems. This is [unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning).
 
 In this project we use tmdb 5000 movies and credits data set for training and evaluation.
 
@@ -26,14 +26,14 @@ In this project we use tmdb 5000 movies and credits data set for training and ev
 
 ## Datasets and their details
 
-**👉🏻** **tmdb_5000_credits.csv**
+**📘** **tmdb_5000_credits.csv**
 
 > - `movie_id` - A unique identifier for each movie.
 > - `title` - Title of the movie
 > - `cast` - The name of lead and supporting actors.
 > - `crew` - The name of Director, Editor, Composer, Writer etc.
 
-**👉🏻** **tmdb_5000_movies.csv**
+**📘** **tmdb_5000_movies.csv**
 
 > - budget - The budget in which the movie was made.
 > - `genre` - The genre of the movie, Action, Comedy ,Thriller etc.
@@ -57,5 +57,14 @@ In this project we use tmdb 5000 movies and credits data set for training and ev
 
 ---
 
-- tmdb datasets used for this project are available in Data folder.
+## Structure
+
+- Tmdb datasets used for this project are available in Data folder.
 - And movie recommendation system python codes are available in Code folder.
+
+---
+
+## References
+
+- Kaggle Notebook by Ibtesam Ahmed, [Getting started with a Movie Recommendation System](https://www.kaggle.com/code/ibtesama/getting-started-with-a-movie-recommendation-system/notebook).
+- Some other internet resources.
