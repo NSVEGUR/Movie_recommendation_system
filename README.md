@@ -14,11 +14,11 @@ There are three types of movie recommendation systems.
 
 **📌** **_Content based filtering_**
 
-> In this system we use users metadata, like his previous watch history and interests to recommend movies. This is [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning).
+> In this system we filter based on the content of the movie. That is movies with similar plot line or we can also suggest based on similar genre, director and important crew of that movie. Here also we are assuming that user will watch movies similar to what he searched for, so it is not personalized based recommender system.
 
 **📌** **_Collaborative filtering_**
 
-> Here when metadata is not available, we match users with similar interests to one other and recommend systems. This is [unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning).
+> Here when metadata is not available, we match users with similar interests to one other and recommend systems. That is, since content based filtering, is just recommending similar movies but going across various genres and based on the users taste so here we map users with similar tastes and recommend movies based on that. Here we are personalizing the movie interests.
 
 In this project we use tmdb 5000 movies and credits data set for training and evaluation.
 
