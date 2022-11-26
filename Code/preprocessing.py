@@ -5,6 +5,7 @@ class Preprocess():
 		self.df_credits = pd.read_csv("../Data/tmdb_5000_credits.csv")
 		self.df_movies = pd.read_csv("../Data/tmdb_5000_movies.csv")
 		self.df = self.__merge_csv__()
+		self.clean_nan()
 	
 	def __merge_csv__(self):
 		self.df_credits.columns = ["id", "title", "cast", "crew"]
@@ -22,15 +23,5 @@ class Preprocess():
 		self.df = self.df.loc[self.df["overview"].notna()]
 		self.df = self.df.loc[self.df["runtime"].notna()]
 		self.df = self.df.loc[self.df["release_date"].notna()]
-	
-	def process(self):
-		self.clean_nan()
-		return self.df
-
-
-
-
-data = Preprocess()
-df = data.process()
 
 
